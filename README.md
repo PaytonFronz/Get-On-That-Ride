@@ -12,10 +12,10 @@ else {
 
 //Stretch 1- Adjust the conditional statement to require both height and age. 
 
-var heightMinimumToRide = 42;
+var heightMinimumToRide = 52;
 var ageMinimumToRide = 10;
 
-if (heightMinimumToRide >= 42 && ageMinimumToRide >= 10){
+if (heightMinimumToRide >= 52 && ageMinimumToRide >= 10){
     console.log("Get on that ride, Kiddo!")
     } 
     else {
