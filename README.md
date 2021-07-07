@@ -21,18 +21,16 @@ if (heightMinimumToRide >= 52 && ageMinimumToRide >= 10){
     else {
     console.log("Sorry kiddo, Maybe next year.")
     }
-    
-    //Stretch 2 
+
+    //Stretch 2 either age or height
 
 var heightMinimumToRide = 52;
 var ageMinimumToRide = 10;
 
-    if (heightMinimumToRide >= 52) {
+    if (heightMinimumToRide >= 52 || ageMinimumToRide >= 10) {
         console.log("Get on that ride, Kiddo!")
-    } 
-    if (ageMinimumToRide>= 10) {
-            console.log("Get on that ride, kiddo!")
-        } else {
-            console.log("Sorry kiddo, Maybe next year.")
+        }
+        else {
+        console.log("Sorry kiddo, maybe next year.") 
         }
     
